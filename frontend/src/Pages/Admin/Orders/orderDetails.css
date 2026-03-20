@@ -1,0 +1,160 @@
+
+  
+  
+  
+  /* orderDetail.css */
+  .order-detail-container {
+      padding: 2rem;
+
+      background-color: #f9fafb;
+      /* font-family: Arial, sans-serif; */
+    }
+    .tabs-header {
+      display: flex;
+      gap: 1rem;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    .info-card, .items-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+      background-color: white;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+    .status-badge {
+      padding: 0.3rem 0.6rem;
+      background-color: #3b82f6;
+      color: white;
+      border-radius: 12px;
+      font-size: 0.85rem;
+    }
+    .order-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      background-color: #ffffff;
+    }
+    .order-table th, .order-table td {
+      padding: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .table-header {
+      background-color: #34d399;
+      color: white;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    .table-row:nth-child(even) {
+      background-color: #f3f4f6;
+    }
+    .product-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    /* .nav-item:active{
+        border: 3px solid rebeccapurple;
+
+    } */
+
+    .shippingItemDetails1{
+      border-top: 2px solid rgb(0, 47, 112);
+      border-radius:20px ;
+      
+    }
+    .shippingItemDetails{
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+    .shippingItemDetails h4{
+      margin: 10px;
+      color: #000569;
+      font-weight:700;
+      font-size: 20px;
+      border-bottom: 2px solid rgb(254, 72, 224);
+
+    }
+    .shippingItemDetails .shippingItemDetailsbtn{
+      margin-right: 20px;
+      color: #ffffff;
+      font-weight:700;
+      background-image: linear-gradient(to left, #243949 0%, #496b86 100%);
+
+    }
+
+    @media(max-width:576px){
+      .shippingItemDetails h4{
+        margin: 10px;
+        font-weight:700;
+        font-size: 14px;
+  
+      }
+      .shippingItemDetails .shippingItemDetailsbtn{
+        margin-right: 16px;
+        font-weight:600;
+        font-size: 12px;
+  
+      }
+    }
+
+
+
+ .comment-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        .comment {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .avatarmessage {
+            width: 40px;
+            height: 40px;
+            background-color: #6772e5;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .comment-content {
+            flex-grow: 1;
+        }
+        .comment-name {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .comment-text {
+            color: #555;
+        }
+        .comment-date {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .edit-icon {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+
+
+    

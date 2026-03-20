@@ -1,0 +1,28 @@
+.card-product {
+  transition: all 0.3s ease;
+}
+
+.card-product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-product .transition-scale {
+  transition: transform 0.3s ease;
+}
+
+.card-product:hover .transition-scale {
+  transform: scale(1.05);
+}
+
+.card-product-action {
+  transition: opacity 0.3s ease;
+}
+
+.card-product:hover .card-product-action {
+  opacity: 1;
+}
+
+.transition-fade {
+  transition: all 0.3s ease;
+}

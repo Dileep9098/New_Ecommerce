@@ -1,0 +1,25 @@
+.categoriesTable  h3 {
+    position: relative;
+    padding-bottom: 10px; /* Adjust if you need space between the text and the line */
+    color: rgb(0, 0, 92);
+}
+
+.categoriesTable  h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 3px; /* Height of the line */
+    background-color: #fca4e4; /* Line color (black) */
+}
+/* Add these styles to style your rows conditionally */
+.active-cell {
+    background-color: #d4edda; /* Light green for active */
+    color: green;
+}
+
+.inactive-cell {
+    background-color: #f8d7da; /* Light red for inactive */
+    color: red;
+}

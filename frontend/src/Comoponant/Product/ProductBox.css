@@ -1,0 +1,415 @@
+/* .custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 3px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: #001e63;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #001e63;
+}
+
+.slick-slider {
+    margin: 0 auto;
+    position: relative;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px; 
+}
+
+.custom-rating{
+    line-height: 1.4;
+    margin-top: 5px;
+    padding-left: 0;
+    margin-bottom: 2px;
+}
+
+.custom-rating .custom-yellow-star{
+    color: #ffa800;
+    font-size: calc(11px+3*(100vw-320px)/1600);
+    margin-right: 4px;
+}
+
+.custom-rating .custom-gray-star{
+    color: #e8ebf2;
+    font-size: calc(11px+3*(100vw-320px)/1600);
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-image img {
+        height: 200px;
+        object-fit: cover; 
+    }
+    .card-body {
+        padding: 5px;
+    }
+    .card-title {
+        font-size: 0.9rem; 
+    }
+    .product-price {
+        font-size: 1rem; 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .custom-card {
+        margin-bottom: 30px; 
+    }
+    .product-image img {
+        height: 300px; 
+        object-fit: cover; 
+    }
+    .card-title {
+        font-size: 1.2rem; 
+    }
+    .product-price {
+        font-size: 1.2rem; 
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom styling for the product card */
+/* .custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.list-group-item {
+    font-size: 0.9rem;
+}
+
+.card-body .btn {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+.card-body .btn:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 390px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-image img {
+        height: 150px;
+        /* object-fit: cover;  */
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+
+    .card-title {
+        font-size: 0.5rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+
+    }
+
+    /* .card-body .card-title{
+        height: 50px;
+        overflow: auto;
+    } */
+}
+
+@media only screen and (min-width: 1024px) {
+    .custom-card {
+        margin-bottom: 30px;
+    }
+
+    .product-image img {
+        height: 300px;
+        /* object-fit: cover;  */
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .product-price {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+    /* object-fit: cover;  */
+
+}
+
+
+.card-body {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.card-title a{
+    color: black;
+    /* color: #001e63; */
+  
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    /* color: #001e63; */
+    color: black;
+}
+
+/* .slick-slider {
+    margin: 0 auto;
+    position: relative;
+} */
+
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.custom-rating {
+    line-height: 1.4;
+    margin-top: 5px;
+    padding-left: 0;
+    margin-bottom: 2px;
+}
+
+.custom-rating .custom-yellow-star {
+    color: #ffa800;
+    font-size: calc(11px + 3 * (100vw - 320px) / 1600);
+    margin-right: 4px;
+}
+
+.custom-rating .custom-gray-star {
+    color: #e8ebf2;
+    font-size: calc(11px + 3 * (100vw - 320px) / 1600);
+    margin-right: 4px;
+}
+
+.card-price-show {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 576px) {
+    .product-price {
+        /* color: red; */
+        font-size: 16px;
+    }
+
+    .custom-rating .custom-yellow-star {
+        color: #ffa800;
+        /* font-size: calc(11px + 3 * (100vw - 320px) / 1600); */
+        font-size: 10px;
+        /* margin-right: 4px; */
+    }
+
+    .product-price span sub {
+        font-size: 10px;
+        font-weight: 500;
+        /* color: green; */
+    }
+}
+
+
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.product-hover-icons {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+}
+
+.custom-card:hover .product-hover-icons {
+    opacity: 1;
+}
+
+.hover-icon {
+    font-size: 30px;
+    color: #7a041e;
+    margin: 1px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+.hover-icon-link{
+    background-color: #fff;
+    /* padding: 5px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+
+}
+
+
+.product-hover-icons .hover-icon:hover {
+    color: #3a011b; 
+}
+
+

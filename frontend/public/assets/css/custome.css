@@ -1,0 +1,77 @@
+/* ----------- Themes Style ----------- */
+
+.slider-style-wrapper {
+  margin-top: 20px;
+}
+
+.accordion1-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion1-header {
+  background: linear-gradient(90deg, #1f0241, #321266);
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px 10px 0 0;
+}
+.accordion1-header h5{
+    color: white;
+}
+.accordion1-header:hover {
+  background: linear-gradient(90deg, #1a0136, #16003a);
+}
+
+.accordion1-icon {
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.accordion1-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion1-body-wrapper {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  max-height: 0;
+}
+
+.accordion1-body {
+  background: #f8f9fa;
+  padding: 20px;
+  border-top: 1px solid #dee2e6;
+}
+
+
+.mobileBottomNavigation{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .mobileBottomNavigation {
+        bottom: -10px;
+        margin-bottom: -10px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .hero__categories1 {
+        display: none !important;
+    }
+
+    .mobileBottomNavigation {
+        display: block;
+    }
+
+
+}

@@ -1,0 +1,35 @@
+.total-orders-count {
+    /* position: absolute; */
+    bottom: 10px;
+    right: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: end;
+}
+
+.viewOrderDetails{
+    color: rgb(0, 8, 62) !important;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.deleteOrderDetails{
+    color: rgb(223, 78, 5) !important;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center; 
+}
+.viewOrderDetails:hover{
+    box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+}
+.deleteOrderDetails:hover{
+    box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+}

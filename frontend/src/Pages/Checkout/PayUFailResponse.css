@@ -1,0 +1,324 @@
+
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: linear-gradient(to right, #e1f5fe, #f1f8e9); /* Soft gradient background */
+    padding: 20px;
+}
+
+.message-card {
+    background-color: #ffffff;
+    border-radius: 16px; /* Soft corners */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px; /* Max width for better focus */
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 0.5s; /* Animation for card appearance */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message-card h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333; /* Darker text */
+}
+
+.message-card.success {
+    border-left: 6px solid #4caf50; /* Green border */
+    background: #e8f5e9; /* Light green background */
+}
+
+.message-card.error {
+    border-left: 6px solid #f44336; /* Red border */
+    background: #ffebee; /* Light red background */
+}
+
+.message-card p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #555; /* Softer text color */
+}
+
+.redirect-text {
+    font-size: 14px;
+}
+
+.redirect-button {
+    margin-left: 5px;
+    color: #007bff;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.redirect-button:hover {
+    color: #0056b3;
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.message-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+}
+
+/* Icons for success and error */
+.icon2{
+    font-size: 50px; /* Size of the icon */
+    margin-bottom: 20px; /* Spacing below the icon */
+}
+
+.success-icon {
+    color: #4caf50; /* Green color for success */
+}
+
+.error-icon {
+    color: #f44336; /* Red color for error */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .message-card {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    .message-card h1 {
+        font-size: 24px; /* Smaller font for titles */
+    }
+
+    .message-card p {
+        font-size: 14px; /* Smaller font for text */
+    }
+}
+
+
+      
+
+/* Container */
+.response-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* text-align: center; */
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.response-header {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+
+}
+
+/* Success Icon with Animated Background */
+.success-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+.fail-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.circle:nth-child(1) {
+    background-color: rgba(46, 204, 113, 0.2);
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+}
+
+.circle:nth-child(2) {
+    background-color: rgba(46, 204, 113, 0.4);
+    width: 90px;
+    height: 90px;
+    left: 15px;
+    top: 15px;
+    animation-delay: 0.3s;
+}
+
+.circle:nth-child(3) {
+    background-color: rgba(46, 204, 113, 0.6);
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    top: 30px;
+    animation-delay: 0.6s;
+}
+
+.circle:nth-child(4) {
+    background-color: #2ecc71;
+    width: 45px;
+    height: 45px;
+    left: 37.5px;
+    top: 37.5px;
+}
+
+.fail-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #cc312e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.fail-circle:nth-child(1) {
+    background-color: rgba(204, 46, 46, 0.2);
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+}
+
+.fail-circle:nth-child(2) {
+    background-color: rgba(204, 46, 46, 0.4);
+    width: 90px;
+    height: 90px;
+    left: 15px;
+    top: 15px;
+    animation-delay: 0.3s;
+}
+
+.fail-circle:nth-child(3) {
+    background-color: rgba(204, 46, 46, 0.6);
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    top: 30px;
+    animation-delay: 0.6s;
+}
+
+.fail-circle:nth-child(4) {
+    background-color: #cc2e2e;
+    width: 45px;
+    height: 45px;
+    left: 37.5px;
+    top: 37.5px;
+}
+
+.checkmark {
+    font-size: 24px;
+    color: white;
+}
+.crossmark {
+    font-size: 24px;
+    color: white;
+}
+
+/* Pulsing Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}
+
+/* Text Content */
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: #00167a;
+
+}
+
+.transaction-number {
+    font-size: 16px;
+    color: #00167a;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* Amount & Payment */
+.amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.amount span {
+    color: #2c9df0;
+}
+
+.payment-method {
+    font-size: 16px;
+    color: #555;
+}
+
+.payment-method span {
+    color: #2c9df0;
+    font-weight: bold;
+}
+.payment-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.payment-details-table td {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+}
+
+.payment-details-table td:first-child {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.payment-details-table td span {
+    font-weight: 700;
+    color: #0a0062;
+}

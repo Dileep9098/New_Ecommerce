@@ -1,0 +1,32 @@
+.hero-slider-wrapper {
+    width: 100%;
+    max-width: 100%; /* Optional: constrain if needed */
+    overflow: hidden;
+}
+
+.hero-slide {
+    height: 500px; /* 👈 FIXED HEIGHT */
+    width: 100%; /* Full width */
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-slide-content {
+    padding: 40px;
+    max-width: 600px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: readable text */
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .hero-slide {
+        height: 300px;
+    }
+    .hero-slide-content {
+        padding: 20px;
+    }
+}

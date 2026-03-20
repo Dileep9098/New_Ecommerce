@@ -1,0 +1,56 @@
+.file-upload-container {
+    margin-top: 20px;
+  }
+  
+  .dropzone {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dz-message {
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .dropzone-previews {
+    margin-top: 15px;
+  }
+  
+  .dz-preview {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 120px;
+    text-align: center;
+  }
+  
+  .dz-image img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+  }
+  
+  .dz-details {
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+  }
+  
+  .dz-filename,
+  .dz-size {
+    margin-top: 5px;
+  }
+  
+
+
+  .searchBoxWithProductList{
+    display: flex !important;
+    justify-content: space-between;
+    color: rgb(0, 33, 87);
+    background-color: yellow;
+    
+
+  }
+ 
