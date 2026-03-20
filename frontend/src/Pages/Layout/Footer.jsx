@@ -309,7 +309,7 @@ export default function Footer() {
                                     © 2022
                                     <span id="copyright">-</span>
                                     FreshCart eCommerce HTML Template. All rights reserved. Powered by
-                                    <a href="https://codescandy.com/">Codescandy</a>.
+                                    {/* <a href="https://codescandy.com/">Codescandy</a>. */}
                                 </span>
                             </div>
                             <div className="col-md-6">
