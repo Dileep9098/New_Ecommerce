@@ -11,7 +11,7 @@ import { showSuccessMsg } from "../../utils/ShowMessages";
 
 export default function SearchBar({setLogoUrl}) {
   const { user } = useSelector((state) => state.auth);
-  const navigate = useNavigate();
+  const navigate = useNavigate();https://new-ecommerce-backend-nljz.onrender.com
 
   const [searchBar, setSearchBar] = useState({
     placeholderText: "Search for products...",
@@ -41,7 +41,7 @@ export default function SearchBar({setLogoUrl}) {
           const setting = response.data.setting;
           if (setting.status === "In Active") return setSearchBar({});
           setSearchBar(setting);
-          setLogoUrl(`http://localhost:5000/uploads/searchbar/${setting.logo}`);
+          setLogoUrl(`https://new-ecommerce-backend-nljz.onrender.com/uploads/searchbar/${setting.logo}`);
         }
       } catch (error) {
         console.error("Error fetching searchbar settings:", error);
@@ -62,7 +62,7 @@ export default function SearchBar({setLogoUrl}) {
   // 🖼️ Logo Source
   const logoSrc = searchBar.logo?.startsWith("assets/")
     ? searchBar.logo
-    : `http://localhost:5000/uploads/searchbar/${searchBar.logo}`;
+    : `https://new-ecommerce-backend-nljz.onrender.com/uploads/searchbar/${searchBar.logo}`;
 
 
 
