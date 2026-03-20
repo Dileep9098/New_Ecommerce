@@ -71,7 +71,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide flex items-center justify-center text-white text-center"
                                     style={{
-                                        backgroundImage: `linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(http://localhost:5000/uploads/banner/${b.file})`, backgroundSize: "cover",
+                                        backgroundImage: `linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`, backgroundSize: "cover",
                                               backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -95,7 +95,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide text-white d-flex align-items-end justify-content-center"
                                     style={{
-                                        background: `linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url(http://localhost:5000/uploads/banner/${b.file}) center/cover`, backgroundSize: "cover",
+                                        background: `linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file}) center/cover`, backgroundSize: "cover",
                                               backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -119,7 +119,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide bg-light text-dark border d-flex align-items-center justify-content-center"
                                     style={{
-                                        backgroundImage: `url(http://localhost:5000/uploads/banner/${b.file})`,
+                                        backgroundImage: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`,
                                          backgroundSize: "cover",
                                               backgroundPosition: "center",
                                               borderRadius: "0.5rem",
@@ -148,7 +148,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide d-flex align-items-center justify-content-center text-white"
                                     style={{
-                                        backgroundImage: `url(http://localhost:5000/uploads/banner/${b.file})`,
+                                        backgroundImage: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`,
                                       backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -176,7 +176,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide position-relative"
                                     style={{
-                                        backgroundImage: `url(http://localhost:5000/uploads/banner/${b.file})`,
+                                        backgroundImage: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`,
                                           backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -206,7 +206,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide position-relative text-white d-flex flex-column justify-content-center align-items-center"
                                     style={{
-                                        background: `linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(http://localhost:5000/uploads/banner/${b.file}) center/cover`,
+                                        background: `linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file}) center/cover`,
                                         transform: "translateZ(0)",
                                         backgroundPosition: "center",
                                               borderRadius: "0.5rem",
@@ -243,7 +243,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide rounded-4 shadow-lg overflow-hidden"
                                     style={{
-                                        background: `url(http://localhost:5000/uploads/banner/${b.file}) center/cover`,
+                                        background: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file}) center/cover`,
                                        backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -266,7 +266,7 @@ export default function HomeBanner() {
                                 <div
                                     className="preview-slide position-relative d-flex justify-content-center align-items-center"
                                     style={{
-                                        backgroundImage: `url(http://localhost:5000/uploads/banner/${b.file})`,
+                                        backgroundImage: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`,
                                         backgroundPosition: "center",
                                               borderRadius: "0.5rem",
                                               height: isMobile?"300px":"600px",
@@ -326,7 +326,7 @@ export default function HomeBanner() {
                                     <div
                                         className="w-50 h-100"
                                         style={{
-                                            background: `url(http://localhost:5000/uploads/banner/${b.file}) center/cover`,
+                                            background: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file}) center/cover`,
                                             borderRadius: "0.5rem",
                                            backgroundPosition: "center",
                                               borderRadius: "0.5rem",
@@ -349,7 +349,7 @@ export default function HomeBanner() {
                             <SwiperSlide>
                                       <div
                                           style={{
-                                              backgroundImage: `url(http://localhost:5000/uploads/banner/${b.file})`,
+                                              backgroundImage: `url(https://new-ecommerce-backend-nljz.onrender.com/uploads/banner/${b.file})`,
                                               backgroundSize: "cover",
                                               backgroundPosition: "center",
                                               borderRadius: "0.5rem",
