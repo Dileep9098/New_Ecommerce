@@ -11,7 +11,7 @@ import { showSuccessMsg } from "../../utils/ShowMessages";
 
 export default function SearchBar({setLogoUrl}) {
   const { user } = useSelector((state) => state.auth);
-  const navigate = useNavigate();https://new-ecommerce-backend-nljz.onrender.com
+  const navigate = useNavigate();
 
   const [searchBar, setSearchBar] = useState({
     placeholderText: "Search for products...",
